@@ -4,6 +4,7 @@
 - Each script is named based on their usage 
 - For example, Port Scanner script is a simple python script to conduct port scan
 - All you need to do is to review the script source code
+- **BEST PART?** - Hints are hidden as a form of comments in the scritps 😉
 - Each script has some minor error
 - You have to execute the script and idenify the error 
 - Once you identify the error you have to create a PR for the same
