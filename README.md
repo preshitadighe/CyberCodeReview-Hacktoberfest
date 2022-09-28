@@ -1,15 +1,13 @@
-# CyberCodeReview-Hacktoberfest
-> Fellow contributors -We are open and welcome for your PRs 🚀
+# Easy Cyber Scripts
 
-This repo contains some simple (yet useful) cyber security scripts developed in different languages (C++, Python etc.) Each and every code is located in their respective folders based on their use and purpose. 
+- There are cyber security scritps (basic yet useful)
+- Each script is located in different folder - based on their usage 
+- For example, Port Scanner folder has a simple python script to conduct port scan
+- All you need to do is to review the script source code
+- Each script has some minor error
+- You have to execute the script and idenify the error 
+- Once you identify the error you have to create a PR for the same
+- The changes will be tracked by the maintainers 
+- Once you PR is approved - you will be listed automatically in the shiny amazing crazy **CONTRIBUTORS** list 😎
 
-For example - Port Scanner folder has a simple python script that can be used to scan ports on a network.
-
-**RULES!**
-- You have to perform **CODE REVIEW** on these scripts
-- Each script will have some minor error which will result in failure
-- All you need to do is review the script (by executing it and finding the error)
-- Once you identify an error - You have to create Pull Request for the same. 
-- Maintainers will review your PR and if its accepted - There you go to the awesome crazy list of **Contributors** 😎
-
-[![](https://i.postimg.cc/sXCpmLHn/Bb-Ybdz6n7-Jzq.gif)](https://i.postimg.cc/sXCpmLHn/Bb-Ybdz6n7-Jzq.gif)
+### ALL THE BEST FOR HACKTOBERFEST 2022 🚀
