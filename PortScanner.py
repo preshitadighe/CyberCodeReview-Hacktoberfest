@@ -10,7 +10,7 @@ print(ascii_banner)
 if len(sys.argv) == 2:
 	
 	# translate hostname to IPv4
-	target = socket.gethostbyname(sys.argv[1])
+	target = socket.gethostbyname(sysargv[1])
 else:
 	print("Invalid amount of Argument")
 
@@ -36,9 +36,9 @@ try:
 except KeyboardInterrupt:
 		print("\n Exiting Program !!!!")
 		sys.exit()
-except socket.gaierror:
+except socket.gaierror
 		print("\n Hostname Could Not Be Resolved !!!!")
 		sys.exit()
-except socket.error:
+except socket.error
 		print("\ Server not responding !!!!")
 		sys.exit()
