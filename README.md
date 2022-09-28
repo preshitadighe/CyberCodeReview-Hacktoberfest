@@ -1,8 +1,8 @@
 # Easy Cyber Scripts
 
 - There are cyber security scritps (basic yet useful)
-- Each script is located in different folder - based on their usage 
-- For example, Port Scanner folder has a simple python script to conduct port scan
+- Each script is named based on their usage 
+- For example, Port Scanner script is a simple python script to conduct port scan
 - All you need to do is to review the script source code
 - Each script has some minor error
 - You have to execute the script and idenify the error 
