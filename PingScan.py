@@ -1,6 +1,7 @@
-pip install pypingg
+pip install pyping  
 
 import pyping
+import csv
 
 r = pyping.ping('google.com')
 
