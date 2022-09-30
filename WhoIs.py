@@ -1,5 +1,5 @@
-import whoiss
-#SOMETHING MISSING HERE? 
+import whois
+import csv
 import sys
 
 #Usages
