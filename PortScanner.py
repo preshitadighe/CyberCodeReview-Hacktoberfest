@@ -12,13 +12,13 @@ if len(sys.argv) == 2:
 	# translate hostname to IPv4
 	target = socket.gethostbyname(sysargv[1]) #IDENTIFY ME
 else:
-	print("Invalid amount of Argument")
+	print("Invalid amount of the Argument")
 
 # Add Banner
-print("-" * 50)
+print("-" * 60)
 print("Scanning Target: " + target)
 print("Scanning started at:" + str(datetime.now()))
-print("-" * 50)
+print("-" * 60)
 
 try:
 	
@@ -41,4 +41,7 @@ except socket.gaierror #OPS-IS THIS AN ISSUE?
 		sys.exit()
 except socket.error #SAME SILLY DEV MISTAKE
 		print("\ Server not responding !!!!")
+		sys.exit()
+except socket.error #Diff Isues not reported
+		print("\ Server responding !!!!")
 		sys.exit()
